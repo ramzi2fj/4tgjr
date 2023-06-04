@@ -2,7 +2,7 @@ import telebot
 import re
 from telebot import apihelper, util, types
 # Replace YOUR_TOKEN_HERE with your actual token
-bot = telebot.TeleBot('6193192053:AAHgbgGlLjqFWbSkak2HgqREBig3_boK_jA')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(commands=['start'])
